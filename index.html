@@ -34,7 +34,7 @@
                                 NOS ACTIONS
                             </a>
                             <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="#">Sensibiliser</a></li>
+                                <li><a class="dropdown-item" href="#Sensibiliser">Sensibiliser</a></li>
                                 <li><a class="dropdown-item" href="#">Eduquer</a></li>
                                 <li><a class="dropdown-item" href="#">Agir</a></li>
                             </ul>
@@ -56,6 +56,11 @@
     </header>
     <!--Acceuil and slider-->
     <section id="Accueil">
+        <div class="col-mb-6">
+            <video class="cover_video" autoplay loop muted>
+                <source src="assets/video/Underwater-loop-background.mp4" type="video/mp4">
+            </video>
+        </div>
         <div class="slider-container slider-1">
             <div class="slider">
                 <img src="assets/img/plastic1.jpg" alt="item1">
@@ -74,13 +79,115 @@
         </div>
     </section>
     <section id="History">
-        <div class="container-fluid">
+        <div class="gm-history container">
+            <div class="titre">
+                <h2>QUI SOMMES-NOUS ?</h2>
+            </div>
+            <div class="card mb-3 border-0 rounded-0" style="max-width: 1920px;">
+                <div class="row g-0">
+                    <div class="col-md-4">
+                        <img src="assets/img/recyclage.png" class="img-fluid rounded-start" alt="...">
+                    </div>
+                    <div class="col-md-8 py-3">
+                        <div class="gm-card oswald card-body">
+                            <p class="card-text">Nous sommes une association fictive qui à été crée en juillet 2023 pour
+                                une évaluation sur les language HTML/CSS ainsi que BOOTSTRAP.
+                                Notre objectif principal est <strong>la protection des océans (faune et flore)</strong>.
+                                L'association participe également à lutter contre le réchauffement climatique.
+
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="card mb-3 border-0 rounded-0" style="max-width: 1920px;">
+                <div class="row g-0">
+                    <div class="col-md-8 py-3">
+                        <div class="gm-card poppins card-body">
+                            <p class="card-text">Les pollutions exercées par les activités humaines asphyxient gravement
+                                le climat, et tous les océans avec la faune et la flore qui y vivent.
+                                Aujourd’hui l’urgence est absolue : les scientifiques du monde entier s’accordent à le
+                                proclamer unanimement via les rapports du GIEC.
+                                Aujourd’hui l’urgence est absolue.
+                                Il est temps de <strong>changer nos mauvaises ou anciennes habitudes</strong> et
+                                d’entamer des actions concrètes pour participer à la préservation des Océans,
+                                de notre santé et se soucier enfin urgemment de ce qu’on va laisser aux prochaines
+                                générations.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-4 rounded-0">
+                        <img src="assets/img/plastic-in-water.jpg" class="img-fluid rounded-start" alt="...">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+    <section id="Sensibiliser">
+        <div class="container">
             <div class="row">
-                <div class="col-mb-6"></div>
-                <div class="col-mb-6">
-                    <video class="cover_video" autoplay loop muted>
-                        <source src="assets/video/Underwater-loop-background.mp4" type="video/mp4">
-                    </video>
+                <div class="titre1 py-5">
+                    <h2>SENSIBILISER</h2>
+                </div>
+                <div class="accordion gm-accordion" id="accordionPanelsStayOpenExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true"
+                                aria-controls="panelsStayOpen-collapseOne">
+                                C'est à dire ?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show">
+                            <div class="accordion-body gm-body-accordion">
+                                L’association a constaté depuis plusieurs années que la réalité océanique est parfois source de mauvaises interprétations, 
+                                de confusion ou de mauvaises informations auprès du grand public.
+                                Nous voulons donc, à travers des conférences et des rapports scientifiques, donner des informations fiables au plus grand nombre d’auditeurs.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseTwo">
+                                Pour qui ?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse">
+                            <div class="accordion-body gm-body-accordion">
+                                Notre volet conférence/transmission d’information s’adresse au grand public et aux équipes communales avec comme objectif de sensibiliser.
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false"
+                                aria-controls="panelsStayOpen-collapseThree">
+                                Comment ?
+                            </button>
+                        </h2>
+                        <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse">
+                            <div class="accordion-body gm-body-accordion">
+                                A travers notre conférence gratuite “La Méditerranée et les océans à l’épreuve du plastique” mais aussi des marches pour la mer et des stands pédagogiques !
+                            </div>
+                        </div>
+                        <div class="accordion-item">
+                            <h2 class="accordion-header">
+                                <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse"
+                                    data-bs-target="#panelsStayOpen-collapseFour" aria-expanded="false"
+                                    aria-controls="panelsStayOpen-collapseFour">
+                                    Où et quand ?
+                                </button>
+                            </h2>
+                            <div id="panelsStayOpen-collapseFour" class="accordion-collapse collapse show">
+                                <div class="accordion-body gm-body-accordion">
+                                    Lors d’évènements publics avec des stands pédagogiques et des Ateliers zéro déchet.
+                                    Chaque intervention nécessite un temps d’échange avec le co-organisateur pour déterminer la date et le lieu ensemble. Contactez-nous !
+                                </div>
+                            </div>
+                        </div>
+                    </div>
                 </div>
             </div>
         </div>
