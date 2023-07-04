@@ -5,17 +5,17 @@
 }
 
 .oswald {
-    font-family: 'Oswald',serif;
+    font-family: 'Oswald', serif;
 }
 
 .poppins {
-    font-family: 'Poppins',sans-serif;
+    font-family: 'Poppins', sans-serif;
 }
 
 /* Fin paramètre Font */
 
 body {
-    background-color: rgba(28,40,66,0.9);
+    background-color: rgba(28, 40, 66, 0.9);
 }
 
 /* navBar */
@@ -23,12 +23,12 @@ body {
 .gm-navbar {
     top: 0;
     padding: 1em;
-    background-color: rgba(28,40,66,0.54);
+    background-color: rgba(28, 40, 66, 0.54);
     padding-right: 60px;
-    font-family: 'oswald',sans-serif;
-    box-shadow: 1px 1px 3px rgba(255,255,255,0.54);
+    font-family: 'oswald', sans-serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
     z-index: 99;
-    
+
 }
 
 .gm-navbar .nav-link {
@@ -63,18 +63,22 @@ body {
 }
 
 @keyframes slider-1 {
+
     0%,
     28.33% {
         transform: translateX(0);
     }
+
     33.33%,
     61.66% {
         transform: translateX(-100%);
     }
+
     66.66%,
     94.99% {
         transform: translateX(-200%);
     }
+
     100% {
         transform: translateX(-300%);
     }
@@ -90,21 +94,44 @@ body {
     width: 35%;
     bottom: 40%;
     font-size: 24px;
-    color: black;
+    color: white;
     position: absolute;
     left: 33%;
+    animation: blur 3s ease-in-out infinite;
+    text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
 }
 
 .slider-1 .slogan h1 strong {
-    color: white ;
+    color: white;
 }
 
 .slider-1 .slogan h1 {
     font-size: 2.375em;
 }
-
-.slider-1 h2 strong {
-    background-color: yellow;
+.slider-1 .slogan h2 {
+    padding-top: 20px;
+}
+@keyframes blur {
+    from {
+        text-shadow: 0px 0px 10px #fff,
+            0px 0px 10px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 25px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #fff,
+            0px 0px 50px #7B96B8,
+            0px 0px 150px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px 10px 100px #7B96B8,
+            0px -10px 100px #7B96B8,
+            0px -10px 100px #7B96B8;
+    }
 }
 
 /*Background*/
@@ -119,4 +146,3 @@ body {
     object-position: center;
     z-index: -10;
 }
-
