@@ -55,6 +55,7 @@ body {
 }
 
 .slider-1 img {
+    opacity: 0.3;
     flex-shrink: 0;
     padding: 72px 0px;
     width: 100%;
