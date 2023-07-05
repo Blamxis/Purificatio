@@ -1,0 +1,21 @@
+/* navBar */
+
+.gm-navbar {
+    top: 0;
+    padding: 1em;
+    background-color: rgba(28, 40, 66, 0.54);
+    padding-right: 60px;
+    font-family: 'oswald', sans-serif;
+    box-shadow: 1px 1px 3px rgba(255, 255, 255, 0.54);
+    z-index: 99;
+
+}
+
+.gm-navbar .nav-link {
+    border-bottom: 1px solid transparent;
+    transition: padding-bottom 0.4s ease-in-out, border-color 0.3s ease;
+}
+
+.nav-link {
+    color: white;
+}
