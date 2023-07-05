@@ -1,3 +1,10 @@
+
+/*Config*/
+
+body {
+    background-color: rgba(28, 40, 66, 0.4);
+}
+
 /* navBar */
 
 .gm-navbar {
@@ -19,3 +26,23 @@
 .nav-link {
     color: white;
 }
+
+/*Fin navBar*/
+
+/*Section Actions*/
+
+.gm-carousel {
+    margin-top: 150px;
+}
+
+.gm-car-text {
+    color: white;
+    font-family: 'caprasimo';
+    padding-bottom: 100px;
+}
+
+.gm-car-text h5 {
+    font-size: 50px;
+}
+
+/*Section Zéros*/
