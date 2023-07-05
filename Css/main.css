@@ -266,3 +266,9 @@ body {
 .gm-form {
     background-color: rgba(28, 40, 66, 0.1);
 }
+
+/*Footer*/
+
+.pied {
+    background-color: rgba(28, 40, 66, 0.7);
+}
