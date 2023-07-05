@@ -180,10 +180,75 @@ body {
     color: white;
 }
 
+.barre {
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    align-items: center;
+    color: black;
+}
+
+.barre-titre {
+    border-top: 2px solid rgba(28, 40, 66, 0.9);
+    width: 7em;
+}
+
+.barre .fa-circle-arrow-down {
+    background-color: white;
+    color: lightblue;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
 /*Eduquer*/
 
 .titre2 h2 {
     justify-content: center;
     text-align: center;
     font-size: 40px;
+}
+
+.barre {
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    align-items: center;
+    color: black;
+}
+
+.barre-titre1 {
+    border-top: 2px solid rgba(28, 40, 66, 0.9);
+    width: 5em;
+}
+
+.barre .fa-circle-arrow-down {
+    background-color: white;
+    color: lightblue;
+    border: 3px solid white;
+    border-radius: 50%;
+}
+
+/*Agir*/
+
+.barre {
+    display: flex;
+    justify-content: center;
+    margin-top: -2em;
+    margin-bottom: 2em;
+    align-items: center;
+    color: black;
+}
+
+.barre-titre2 {
+    border-top: 2px solid rgba(28, 40, 66, 0.9);
+    width: 2em;
+}
+
+.barre .fa-circle-arrow-down {
+    background-color: white;
+    color: lightblue;
+    border: 3px solid white;
+    border-radius: 50%;
 }
