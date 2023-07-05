@@ -46,3 +46,21 @@ body {
 }
 
 /*Section Zéros*/
+
+.gm-titre1 {
+    text-align: center;
+}
+
+.par1 {
+    text-align: center;
+}
+
+.lientuto {
+    text-decoration: none;
+    color: black;
+}
+
+.lientuto:hover {
+    color: red;
+}
+
