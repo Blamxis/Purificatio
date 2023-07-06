@@ -97,7 +97,7 @@ body {
     color: white;
     position: absolute;
     left: 33%;
-    animation: blur 3s ease-in-out infinite;
+    animation: blur 3s ease-in-out;
     text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
     z-index: 25;
 }
