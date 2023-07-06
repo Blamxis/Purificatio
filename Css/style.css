@@ -38,7 +38,7 @@ body {
 .gm-car-text {
     color: white;
     font-family: 'caprasimo';
-    padding-bottom: 100px;
+    padding-bottom: 5%;
 }
 
 .gm-car-text h5 {
@@ -68,4 +68,19 @@ body {
 
 .pied {
     background-color: rgba(28, 40, 66, 0.7);
+}
+
+
+@media screen and (max-width:992px) {
+    .gm-car-text {
+        font-size: 20px;
+        color: white;
+        font-family: 'caprasimo';
+        top: 20px;
+    }
+    
+    .gm-car-text h5 {
+        font-size: 20px;
+    }
+    
 }

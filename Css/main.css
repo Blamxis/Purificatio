@@ -92,13 +92,14 @@ body {
     justify-content: center;
     text-align: center;
     width: 35%;
-    bottom: 50%;
+    bottom: 45%;
     font-size: 24px;
     color: white;
     position: absolute;
     left: 33%;
     animation: blur 3s ease-in-out infinite;
     text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
+    z-index: 25;
 }
 
 .slider-1 .slogan h1 strong {
@@ -141,7 +142,7 @@ body {
     top: 0;
     left: 0;
     width: 100%;
-    height: 71%;
+    height: 79%;
     object-fit: cover;
     object-position: center;
     z-index: -10;
@@ -271,4 +272,231 @@ body {
 
 .pied {
     background-color: rgba(28, 40, 66, 0.7);
+}
+
+/*Responsive*/
+@media  screen and (max-width:1400px) {
+    .slider-1 .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        bottom: 30%;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        left: 33%;
+        animation: blur 3s ease-in-out infinite;
+        text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
+        z-index: 25;
+    }
+    
+    .slider-1 .slogan h1 strong {
+        color: white;
+    }
+    
+    .slider-1 .slogan h1 {
+        font-size: 1.8em;
+    }
+    .slider-1 .slogan h2 {
+        padding-top: 20px;
+    }
+    /*Background*/
+
+    .cover_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -10;
+    }
+}
+
+@media screen and (max-width:1200px) {
+    .slider-1 .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        bottom: 30%;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        left: 33%;
+        animation: blur 3s ease-in-out infinite;
+        text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
+        z-index: 25;
+    }
+    
+    .slider-1 .slogan h1 strong {
+        color: white;
+    }
+    
+    .slider-1 .slogan h1 {
+        font-size: 1.8em;
+    }
+    .slider-1 .slogan h2 {
+        padding-top: 20px;
+    }
+    /*Background*/
+
+    .cover_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -10;
+    }
+}
+
+
+@media screen and (max-width:992px) {
+    .slider-1 .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        bottom: 30%;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        left: 33%;
+        animation: blur 3s ease-in-out infinite;
+        text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
+        z-index: 25;
+    }
+    
+    .slider-1 .slogan h1 strong {
+        color: white;
+    }
+    
+    .slider-1 .slogan h1 {
+        font-size: 1.8em;
+    }
+    .slider-1 .slogan h2 {
+        padding-top: 20px;
+    }
+    /*Background*/
+
+    .cover_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -10;
+    }
+}
+
+@media screen and (max-width:768px) {
+    .slider-1 .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 35%;
+        bottom: 30%;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        left: 33%;
+        animation: blur 3s ease-in-out infinite;
+        text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
+        z-index: 25;
+    }
+    
+    .slider-1 .slogan h1 strong {
+        color: white;
+    }
+    
+    .slider-1 .slogan h1 {
+        font-size: 1.8em;
+    }
+    .slider-1 .slogan h2 {
+        padding-top: 20px;
+    }
+    /*Background*/
+
+    .cover_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -10;
+    }
+}
+
+@media screen and (max-width:576px) {
+    .slider-1 .slogan {
+        display: flex;
+        flex-wrap: wrap;
+        flex-direction: column;
+        justify-content: center;
+        text-align: center;
+        width: 40%;
+        bottom: 30%;
+        font-size: 24px;
+        color: white;
+        position: absolute;
+        left: 33%;
+        animation: blur 3s ease-in-out infinite;
+        text-shadow: 0px 0px 5px white, 0px 0px 7px blue;
+        z-index: 25;
+    }
+    
+    .slider-1 .slogan h1 strong {
+        color: white;
+    }
+    
+    .slider-1 .slogan h1 {
+        font-size: 1em;
+    }
+    .slider-1 .slogan h2 {
+        padding-top: 20px;
+    }
+    /*Background*/
+
+.cover_video {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 94%;
+    object-fit: cover;
+    object-position: center;
+    z-index: -10;
+    
+}
+.titre h2 {
+    text-align: center;
+    font-family: 'oswald';
+    font-size: 50px;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-bottom: 110px;
+}
+
+.gm-recyclage {
+    justify-content: center;
+    width: 100%;
+}
 }
